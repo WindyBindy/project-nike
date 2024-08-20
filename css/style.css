@@ -8,3 +8,70 @@
 }
 
 
+body{
+    font-family: "Roboto";
+}
+.logo-text{
+    
+    font-family: "PT Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+h1{
+  
+font-family: "Playfair Display";
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hero-h2{
+ 
+font-family: "Playfair Display";
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.shopping-title{
+ 
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.Reviews-title{
+
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.order-title{
+    
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.logo-text-footer{
+    
+font-family: "PT Serif";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
