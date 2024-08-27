@@ -40,22 +40,26 @@ line-height: normal;
 
 .shopping-title{
  
-text-align: center;
-font-family: "Playfair Display";
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .Reviews-title{
 
-text-align: center;
-font-family: "Playfair Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 24px;
 }
 
 .order-title{
@@ -205,4 +209,97 @@ padding-right:61px;
 
 margin-top: 41px;
 }
+
+.shoping{
+    display: flex;
+    background: url(../img/backgraund-shoping.jpg) 0px -384px / 100% 227.888% no-repeat;
+   
+    justify-content:center;
+    padding-bottom:105px ;
+    padding-top: 105px;
+}
+
+.shoping-list{
+    display: flex;
+    gap: 145px;
+    justify-content: center;
+    border: solid 5px #8E32C6;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    
+}
+
+
+
+
+
+
+.dfkj{
+    border: none;
+}
+
+
+.section-revies{
+    background: url(../img/backgrund-reviews.jpg) center / cover no-repeat ;
+    padding-bottom: 114px;
+}
+
+.reviews-list{
+    display: flex;
+    gap:93px ;
+    justify-content: center;
+}
+
+.revievs-li{
+    border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+
+width: 255px;
+
+
+padding-top:49px ;
+padding-bottom:29px ;
+padding-left:13px ;
+}
+
+.revievs-li:nth-child(2){
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+
+.revievs-li:nth-child(3){
+    border-radius: 15px;
+background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+
+.revievs-text-long{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14;
+margin-bottom: 8px;
+}
+
+.revievs-data{
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.14;
+margin-bottom: 47px;
+}
+
+
+
+
+
+
 
