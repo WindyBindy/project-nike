@@ -235,8 +235,10 @@ margin-top: 41px;
 
 
 .section-revies{
-    background: url(../img/backgrund-reviews.jpg) center / cover no-repeat ;
+    background: url(../img/backgrund-reviews.jpg) center / cover no-repeat;
+    
     padding-bottom: 114px;
+
 }
 
 .reviews-list{
@@ -443,8 +445,39 @@ text-decoration-line: underline;
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
-
 }
+
+.data-footer{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+margin-bottom: 7px;
+}
+
+.country-footer{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+}
+
+.logo-text-footer{
+    color: #FFF;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-left: 50px;
+    
+}
+
+
 
 
 
