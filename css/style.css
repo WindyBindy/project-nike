@@ -62,14 +62,7 @@ line-height: normal;
     margin-bottom: 24px;
 }
 
-.order-title{
-    
-font-family: "Playfair Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
+
 
 .logo-text-footer{
     
@@ -297,8 +290,161 @@ line-height: 1.14;
 margin-bottom: 47px;
 }
 
+.john{
+   margin-right: 5px;
+
+}
 
 
+.div-avatar-name{
+    display: flex;
+    align-items: center;
+    
+}
+
+.data-comming-revievs{
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.name-revievs{
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+}
+
+
+.btn-search{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+border-radius: 10px;
+background: #8E32C6;
+padding-top: 20px;
+padding-bottom:20px;
+border: none;
+padding-left:61px;
+padding-right:61px;
+}
+
+
+
+.container-order{
+    text-align: center;
+ 
+}
+
+.section-order{
+
+    
+    height: 509px;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    background: url(../img/backgraund-order.jpg)  center / cover  no-repeat ;
+}
+
+.order-title{
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+.input-email{
+    border-radius: 50px;
+background: #FFF;
+width: 690px;
+height: 60px;
+padding-left: 25px;
+padding-top: 12px;
+padding-bottom: 13px;
+margin-top:33px;
+margin-bottom:19px;
+/* text */
+color: #959595;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+}
+
+.small-input{
+    border-radius: 50px;
+    background: #FFF;
+    width: 580px;
+    height: 50px;
+padding-left: 24px;
+padding-top: 11px;
+padding-bottom: 11px;
+margin-bottom: 19px;
+
+/* text */
+color: #959595;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+
+}
+
+
+footer{
+    background: #021635;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+
+
+.questions-box{
+    display: flex;
+    justify-content:space-between;
+padding-bottom: 20px;
+
+    border-bottom: solid 1px #9B9B9B;
+}
+
+.question{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height:1.16;
+}
+
+
+.anser{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.watermarkers{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
 
 
 
