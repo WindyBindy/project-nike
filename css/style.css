@@ -1,484 +1,455 @@
-.container{
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    /* outline: 1px solid black; */
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 1px solid black; */
 }
 
-
-body{
-    font-family: "Roboto";
+body {
+  font-family: "Roboto";
 }
-.logo-text{
-    
-    font-family: "PT Serif";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-
+.logo-text {
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-h1{
+h1 {
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-h2 {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shopping-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Reviews-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-bottom: 24px;
+}
+
+.logo-text-footer {
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header {
+  background: #012d63;
+  padding-top: 30px;
+  padding-bottom: 33px;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  margin-left: 152px;
+  display: flex;
+  gap: 29px;
+}
+.header-list {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.a-header {
+  color: #c7c7c7;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.a-header:hover {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lengwidsh-header {
+  color: #dcdcdc;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.lengwidsh-header:hover {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero {
+  height: 858px;
+  background: url(../img/backgraund-hero.jpg) lightgray 50% / cover no-repeat;
+}
+
+.logo-text {
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-top: -40px;
+  margin-left: 39px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+
+  margin-top: -30px;
+}
+.hero-h2 {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-top: -40px;
+}
+
+.hero-p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+
+  width: 508px;
+}
+
+.btn-hero {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 10px;
+  background: #8e32c6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  padding-left: 61px;
+  padding-right: 61px;
+
+  margin-top: 41px;
+}
+
+.shoping {
+  display: flex;
+  background: url(../img/backgraund-shoping.jpg) 0px -384px / 100% 227.888% no-repeat;
+
+  justify-content: center;
+  padding-bottom: 105px;
+  padding-top: 105px;
+}
+
+.shoping-list {
+  display: flex;
+  gap: 145px;
+  justify-content: center;
+  border: solid 5px #8e32c6;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+.dfkj {
+  border: none;
+}
+
+.section-revies {
+  background: url(../img/backgrund-reviews.jpg) center / cover no-repeat;
+
+  padding-bottom: 114px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 93px;
+  justify-content: center;
+}
+
+.revievs-li {
+  border-radius: 15px;
+  background: linear-gradient(
+    137deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+
+  width: 255px;
+
+  padding-top: 49px;
+  padding-bottom: 29px;
+  padding-left: 13px;
+}
+
+.revievs-li:nth-child(2) {
+  border-radius: 15px;
+  background: linear-gradient(
+    137deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.revievs-li:nth-child(3) {
+  border-radius: 15px;
+  background: linear-gradient(
+    143deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.revievs-text-long {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+  margin-bottom: 8px;
+}
+
+.revievs-data {
+  color: #d8d8d8;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+  margin-bottom: 47px;
+}
+
+.john {
+  margin-right: 5px;
+}
+
+.div-avatar-name {
+  display: flex;
+  align-items: center;
+}
+
+.data-comming-revievs {
+  color: #d8d8d8;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.name-revievs {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.btn-search {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 10px;
+  background: #8e32c6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  padding-left: 61px;
+  padding-right: 61px;
+}
+
+.container-order {
+  text-align: center;
+}
+
+.section-order {
+  height: 509px;
+  padding-top: 21px;
+  padding-bottom: 37px;
+  background: url(../img/backgraund-order.jpg) center / cover no-repeat;
+}
+
+.order-title {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+.input-email {
+  border-radius: 50px;
+  background: #fff;
+  width: 690px;
+  height: 60px;
+  padding-left: 25px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  margin-top: 33px;
+  margin-bottom: 19px;
+  /* text */
+  color: #959595;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.small-input {
+  border-radius: 50px;
+  background: #fff;
+  width: 580px;
+  height: 50px;
+  padding-left: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-bottom: 19px;
+
+  /* text */
+  color: #959595;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+footer {
+  background: #021635;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.questions-box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  border-bottom: solid 1px #9b9b9b;
+}
+
+.question {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+.anser {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.watermarkers {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
   
-font-family: "Playfair Display";
-font-size: 144px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 }
 
-.hero-h2{
- 
-font-family: "Playfair Display";
-font-size: 72px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.data-footer {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  margin-bottom: 7px;
 }
 
-.shopping-title{
- 
-
-    color: #FFF;
-    text-align: center;
-    font-family: "Playfair Display";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.country-footer {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
 }
 
-.Reviews-title{
-
-    color: #FFF;
-    text-align: center;
-    font-family: "Playfair Display";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.33;
-    margin-bottom: 24px;
+.logo-text-footer {
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  margin-left: 50px;
 }
-
-
-
-.logo-text-footer{
-    
-font-family: "PT Serif";
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-
-header{
-    background: #012D63;
-    padding-top: 30px;
-    padding-bottom: 33px;
-
-}
-
-.header-box{
-    display: flex;
-    align-items: center;
-    
-}
-
-.nav-list{
-    margin-left: 152px;
-    display: flex;
-    gap: 29px;
-}
-.header-list{
-    
-    display: flex;
-    gap: 15px;
-    margin-left: auto;
-}
-
-.a-header{
-    color: #C7C7C7;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-}
-
-.a-header:hover{
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.lengwidsh-header{
-    color: #DCDCDC;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-}
-.lengwidsh-header:hover{
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.hero{
- 
-
-    height: 858px;
-    background: url(../img/backgraund-hero.jpg) lightgray 50% / cover no-repeat;
-}
-
-
-.logo-text{
-    color: #FFF;
-font-family: "PT Serif";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-top: -40px;
-margin-left: 39px;
-}
-
-h1{
-    color: #FFF;
-font-family: "Playfair Display";
-font-size: 144px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-
-margin-top: -30px;
-}
-.hero-h2{
-    color: #FFF;
-font-family: "Playfair Display";
-font-size: 72px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-top: -40px;
-}
-
-.hero-p{
-    color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-
-width: 508px;
-}
-
-.btn-hero{
-    color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-border-radius: 10px;
-background: #8E32C6;
-padding-top: 20px;
-padding-bottom:20px;
-border: none;
-padding-left:61px;
-padding-right:61px;
-
-margin-top: 41px;
-}
-
-.shoping{
-    display: flex;
-    background: url(../img/backgraund-shoping.jpg) 0px -384px / 100% 227.888% no-repeat;
-   
-    justify-content:center;
-    padding-bottom:105px ;
-    padding-top: 105px;
-}
-
-.shoping-list{
-    display: flex;
-    gap: 145px;
-    justify-content: center;
-    border: solid 5px #8E32C6;
-    padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 25px;
-    
-}
-
-
-
-
-
-
-.dfkj{
-    border: none;
-}
-
-
-.section-revies{
-    background: url(../img/backgrund-reviews.jpg) center / cover no-repeat;
-    
-    padding-bottom: 114px;
-
-}
-
-.reviews-list{
-    display: flex;
-    gap:93px ;
-    justify-content: center;
-}
-
-.revievs-li{
-    border-radius: 15px;
-background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
-
-width: 255px;
-
-
-padding-top:49px ;
-padding-bottom:29px ;
-padding-left:13px ;
-}
-
-.revievs-li:nth-child(2){
-    border-radius: 15px;
-    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
-}
-
-.revievs-li:nth-child(3){
-    border-radius: 15px;
-background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
-}
-
-.revievs-text-long{
-    color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.14;
-margin-bottom: 8px;
-}
-
-.revievs-data{
-    color: #D8D8D8;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.14;
-margin-bottom: 47px;
-}
-
-.john{
-   margin-right: 5px;
-
-}
-
-
-.div-avatar-name{
-    display: flex;
-    align-items: center;
-    
-}
-
-.data-comming-revievs{
-    color: #D8D8D8;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-
-.name-revievs{
-    color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-}
-
-
-.btn-search{
-    color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-border-radius: 10px;
-background: #8E32C6;
-padding-top: 20px;
-padding-bottom:20px;
-border: none;
-padding-left:61px;
-padding-right:61px;
-}
-
-
-
-.container-order{
-    text-align: center;
- 
-}
-
-.section-order{
-
-    
-    height: 509px;
-    padding-top: 21px;
-    padding-bottom: 37px;
-    background: url(../img/backgraund-order.jpg)  center / cover  no-repeat ;
-}
-
-.order-title{
-    color: #FFF;
-    font-family: "Playfair Display";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.33;
-}
-
-.input-email{
-    border-radius: 50px;
-background: #FFF;
-width: 690px;
-height: 60px;
-padding-left: 25px;
-padding-top: 12px;
-padding-bottom: 13px;
-margin-top:33px;
-margin-bottom:19px;
-/* text */
-color: #959595;
-font-family: Roboto;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.17;
-}
-
-.small-input{
-    border-radius: 50px;
-    background: #FFF;
-    width: 580px;
-    height: 50px;
-padding-left: 24px;
-padding-top: 11px;
-padding-bottom: 11px;
-margin-bottom: 19px;
-
-/* text */
-color: #959595;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-
-}
-
-
-footer{
-    background: #021635;
-    padding-top: 45px;
-    padding-bottom: 50px;
-}
-
-
-
-.questions-box{
-    display: flex;
-    justify-content:space-between;
-padding-bottom: 20px;
-
-    border-bottom: solid 1px #9B9B9B;
-}
-
-.question{
-    color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height:1.16;
-}
-
-
-.anser{
-    color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration-line: underline;
-}
-
-.watermarkers{
-    margin-top: 24px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.data-footer{
-    color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-margin-bottom: 7px;
-}
-
-.country-footer{
-    color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-}
-
-.logo-text-footer{
-    color: #FFF;
-    font-family: "PT Serif";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.33;
-    margin-left: 50px;
-    
-}
-
-
-
-
-
-
